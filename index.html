@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des étudiants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gestion des étudiants</h1>
+
+        <div class="formulaire">
+            <h2>Ajouter un étudiant</h2>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" placeholder="Entrez le nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" placeholder="Entrez le prénom" required>
+
+            <button id="btnAjouter">Ajouter</button>
+        </div>
+
+        <div class="liste">
+            <h2>Liste des étudiants</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tableauEtudiants">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

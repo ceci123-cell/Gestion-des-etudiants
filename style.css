@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 30px 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.formulaire {
+    max-width: 400px;
+    margin: auto;
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2878d0;
+}
+
+button {
+    padding: 9px 13px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 12px;
+    background-color: #2878d0;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#btnAjouter {
+    width: 100%;
+    font-size: 15px;
+}
+
+.liste {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px 7px;
+}
+
+th {
+    background-color: #2878d0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5f8;
+}
+
+.btnModifier {
+    background-color: #e69b16;
+    margin-right: 4px;
+}
+
+.btnSupprimer {
+    background-color: #dc3545;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 12px;
+    }
+
+    th, td {
+        padding: 7px 4px;
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 11px;
+    }
+}
